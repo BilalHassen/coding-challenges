@@ -6,10 +6,5 @@ then return double their sum.
 */
 
 function sumDouble(a, b) {
-  if (a === b) {
-    let sum = a + b;
-    return sum * 2;
-  }
-
-  return a + b;
+  return a === b ? (a + b) * 2 : a + b;
 }
