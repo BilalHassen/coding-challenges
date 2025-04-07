@@ -14,4 +14,4 @@ function countXX(str){
     return count;
 }
 
-console.log(countXX("strxx"))
+console.log(countXX("xxxx"))
