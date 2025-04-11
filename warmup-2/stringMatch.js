@@ -15,7 +15,6 @@ function stringMatch(a, b) {
   }
 
   for (let i = 0; i < b.length -1; i++) {
-    console.log(b[i] + b[i + 1] === aStr[i] + aStr[i + 1])
     if (b[i] + b[i + 1] === aStr[i] + aStr[i + 1]) {
       counter += 1;
     }
