@@ -7,13 +7,9 @@ so "Candy" yields "and". The string length will be at least 3.
 
 
 function middleThree(str){
-  const leftStr = (((str.length) -3 ) /2)
-const lastChar = (str.length - leftStr)
-
-  
-  return str.slice(leftStr, lastChar)
-  
+    const start = (str.length - 3) / 2;
+    return str.slice(start, start + 3);
 }
 
 
-console.log(middleThree("abcd"))
+console.log(middleThree("candy"))
